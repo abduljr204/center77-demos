@@ -20,7 +20,7 @@ a{color:inherit;text-decoration:none}
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:10px;
   background:linear-gradient(180deg,var(--y2),var(--y));color:var(--ink);
-  font:700 16px/1 inherit;font-family:inherit;padding:16px 26px;border-radius:12px;border:0;cursor:pointer;
+  font-weight:700;font-size:16px;line-height:1;font-family:inherit;padding:16px 26px;border-radius:12px;border:0;cursor:pointer;
   box-shadow:0 12px 30px rgba(255,212,0,.28);
 }
 .btn.ghost{background:rgba(255,255,255,.06);color:#fff;border:1px solid rgba(255,255,255,.45);box-shadow:none}
@@ -36,7 +36,7 @@ a{color:inherit;text-decoration:none}
 nav{display:flex;align-items:center;gap:26px}
 nav .l{font-size:14px;color:#e6e6e6}
 nav .l:hover{color:var(--y)}
-.lang{background:rgba(255,255,255,.08);color:#fff;border:1px solid var(--line-d);border-radius:10px;padding:8px 14px;font:700 13px inherit;font-family:inherit;cursor:pointer}
+.lang{background:rgba(255,255,255,.08);color:#fff;border:1px solid var(--line-d);border-radius:10px;padding:8px 14px;font-weight:700;font-size:13px;font-family:inherit;cursor:pointer}
 
 /* hero */
 .hero{position:relative;min-height:760px;overflow:hidden;background:var(--ink);color:#fff}
@@ -78,7 +78,7 @@ h2{font-size:clamp(28px,3.6vw,42px);font-weight:800;line-height:1.2;margin-botto
 .card p{font-size:14px;color:var(--muted);flex:1}
 .price{font-size:28px;font-weight:800;color:var(--ink)}
 .price small{font-size:13px;color:var(--muted);font-weight:600;margin-inline-start:6px}
-.card button{margin-top:6px;background:var(--ink);color:#fff;border:1px solid var(--ink);border-radius:10px;padding:10px;font:700 14px inherit;font-family:inherit;cursor:pointer;transition:background .2s,color .2s}
+.card button{margin-top:6px;background:var(--ink);color:#fff;border:1px solid var(--ink);border-radius:10px;padding:10px;font-weight:700;font-size:14px;font-family:inherit;cursor:pointer;transition:background .2s,color .2s}
 .card button:hover{background:var(--y);color:var(--ink);border-color:var(--y)}
 
 /* gallery */
@@ -100,7 +100,7 @@ input,select{width:100%;padding:13px 14px;border-radius:12px;border:1px solid rg
 input:focus,select:focus,.slots button:focus-visible{outline:2px solid var(--y);outline-offset:1px}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .slots{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
-.slots button{padding:11px 0;border-radius:10px;border:1px solid rgba(255,255,255,.2);background:transparent;color:var(--muted-d);font:600 14px inherit;font-family:inherit;cursor:pointer}
+.slots button{padding:11px 0;border-radius:10px;border:1px solid rgba(255,255,255,.2);background:transparent;color:var(--muted-d);font-weight:600;font-size:14px;font-family:inherit;cursor:pointer}
 .slots button.on{background:var(--y);color:var(--ink);border-color:var(--y);font-weight:800}
 .err{color:#ffb4a8;font-size:14px}
 .hint{font-size:13px;color:var(--muted);text-align:center}
